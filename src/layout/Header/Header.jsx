@@ -1,18 +1,17 @@
-import React from 'react'
-import {  } from "module";
-import { User } from '../../UI/user/User';
-import { Hello } from '../../UI/hello/Hello';
+import React from "react";
+import { MenuLink } from "../../UI/MenuLink/MenuLink";
+import s from "./Header.module.css";
 
 export const Header = () => {
   return (
     <div>
-      <ul>
-        <li><User></User></li>
-        <li><Hello></Hello></li>
-        <li><a href="">_about-me</a></li>
-        <li><a href="">_projects</a></li>
-        <li><a href="">_contact-me</a></li>
-      </ul> 
+      <ul className={s.ul}>
+        <MenuLink />
+        <MenuLink />
+        <MenuLink />
+        <MenuLink />
+        <MenuLink />
+      </ul>
     </div>
-  )
-}
+  );
+};
