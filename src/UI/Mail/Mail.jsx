@@ -2,8 +2,10 @@ import React from 'react'
 
 export const Mail = () => {
   return (
-      <div>
-          <p><a href=""></a>user@gmail.com</p>
+    <div>
+      <p>
+        <a href="https/google.com"> user@gmail.com</a>
+      </p>
     </div>
-  )
+  );
 }
