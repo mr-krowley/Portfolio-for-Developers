@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.name {
+  color: #607b96;
+}
+.input_name {
+  width: 372px;
+  height: 41px;
+  border: 1px solid #607b96;
+  box-shadow: 0px 0px 0px 2px rgba(96, 123, 150, 0.3);
+  border-radius: 8px;
+  color: #465e77;
+  background: #011221;
+}

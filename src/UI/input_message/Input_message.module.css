@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.message {
+  color: #607b96;
+}
+.input {
+  width: 372px;
+  height: 145px;
+  color: #465e77;
+  border: 1px solid #1e2d3d;
+  border-radius: 8px;
+  background: #011221;
+}
