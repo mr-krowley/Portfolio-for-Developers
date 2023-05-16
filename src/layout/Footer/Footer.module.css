@@ -1,0 +1,13 @@
+.footer_style {
+ font-family: "Fira Code", sans-serif;
+ border: 1px solid #1E2D3D;
+ background: #011627;
+ height: 55px;
+ font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 21px;
+ color: #607B96;
+ display: flex;
+ text-align:  center;
+}
