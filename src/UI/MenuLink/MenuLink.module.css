@@ -8,17 +8,22 @@ text-align: center;
 list-style-type: none;
 border: 1px solid #1E2D3D;
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
-
 }
+
 a{
 	font-family: 'Fira Code';
 	font-style: normal;
 	font-weight: 450;
 	font-size: 16px;
-	line-height: 21px;	
+	line-height: 55px;	
 	text-decoration: none;
 	color: #607B96;
 	width: 100%;
+}
+
+a:active{
+	color: #FFFFFF;
+	border-bottom: 3px solid #FEA55F;
 }

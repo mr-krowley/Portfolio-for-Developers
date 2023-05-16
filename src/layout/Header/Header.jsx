@@ -4,14 +4,15 @@ import s from "./Header.module.css";
 
 
 export const Header = () => {
+  
   return (
     <div>
       <ul className={s.ul}>
-        <MenuLink />
-        <MenuLink />
-        <MenuLink />
-        <MenuLink />
-        <MenuLink />
+        <MenuLink name = 'micheal-weaver' style={{width: "300px"}} />
+        <MenuLink name = '_hello' />
+        <MenuLink name = '_about-me' />
+        <MenuLink name = '_projects' />
+        <MenuLink name = '_contact-me'/>
       </ul>
     </div>
   );
