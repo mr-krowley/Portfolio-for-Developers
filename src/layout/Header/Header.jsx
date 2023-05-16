@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <div>
       <ul className={s.ul}>
-        <MenuLink name = 'micheal-weaver' style={{width: "300px"}} />
+        <MenuLink name = 'micheal-weaver'/>
         <MenuLink name = '_hello' />
         <MenuLink name = '_about-me' />
         <MenuLink name = '_projects' />
