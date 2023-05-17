@@ -6,7 +6,9 @@ import s from "./Github.module.css"
 export const Github = () => {
   return (
     <div className={s.div}>
-      <img src={GithubIcon} alt="" />
+      <a href="">
+        <img src={GithubIcon} alt="" />
+      </a>
     </div>
   );
 }

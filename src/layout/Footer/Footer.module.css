@@ -10,4 +10,8 @@ line-height: 21px;
  color: #607B96;
  display: flex;
  text-align:  center;
+ /* background: inherit; */
+}
+.footer_style:last-child {
+    margin-left: auto;
 }
