@@ -1,26 +1,26 @@
 import React from "react";
-import { MenuLink } from "../../UI/MenuLink/MenuLink";
+
 import s from "./Header.module.css";
 import { Link } from "react-router-dom";
-import { list } from "./assets/keyLink";
-import { LincList } from "../../components/LincList/LincList";
-import { ListItem } from "../../UI/ListItem/Listitem";
 
 
-
-export const Header = (props) => {
+export const Header = () => {
   return (
     <div>
-      <LincList >
-       {list.map(el => <ListItem key={el} name={el}/>)}
-      </LincList>
-
       <ul className={s.ul}>
-        <MenuLink name="micheal-weaver" />
-        <MenuLink name="_hello" />
-        <MenuLink name="_about-me" />
-        <MenuLink name="_projects" />
-        <MenuLink name="_contact-me" />
+        <li className={s.li}>micheal-weaver</li>
+        <li className={s.li}>
+          <Link to="/">_hello</Link>
+        </li>
+        <li className={s.li}>
+          <Link to="_about_me">_about</Link>
+        </li>
+        <li className={s.li}>
+          <Link to="projects_me">_projects</Link>
+        </li>
+        <li className={s.li}>
+          <Link to="contact-me">_contact_me</Link>
+        </li>
       </ul>
     </div>
   );
