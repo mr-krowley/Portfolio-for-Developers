@@ -5,7 +5,9 @@ import s from "./Twitter.module.css"
 export const Twitter = () => {
   return (
     <div className={s.div}>
-      <img src={TwitterIcon} alt="" />
+      <a href="">
+        <img src={TwitterIcon} alt="" />
+      </a>
     </div>
   );
 }
