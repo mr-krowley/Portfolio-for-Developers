@@ -7,7 +7,6 @@ import { LincList } from "../../components/LincList/LincList";
 import { ListItem } from "../../UI/ListItem/Listitem";
 
 
-
 export const Header = (props) => {
   return (
     <div>
