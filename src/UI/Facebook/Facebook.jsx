@@ -5,7 +5,9 @@ import s from "./Facebook.module.css"
 export const Facebook = () => {
   return (
     <div className={s.div}>
-      <img src={FacebookIcon} alt="" />
+      <a href="">
+        <img src={FacebookIcon} alt="" />
+      </a>
     </div>
   );
 }
