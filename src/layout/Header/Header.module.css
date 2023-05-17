@@ -1,9 +1,8 @@
 ul{
 	padding: 0;
 	margin: 0;
-	font-family: "Fira Code", sans-serif;
 	border: 1px solid #1E2D3D;
-	background: #011627;
+	background: inherit;
 	height: 55px;
 	font-style: normal;
 font-weight: 450;
