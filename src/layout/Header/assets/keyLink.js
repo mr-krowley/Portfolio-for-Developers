@@ -1,4 +1,4 @@
-import { Home } from "../../../pages/Home";
+
 
 export const list = [
   { name: "home", path: "/" },

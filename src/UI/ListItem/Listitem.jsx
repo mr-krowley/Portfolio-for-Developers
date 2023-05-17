@@ -1,5 +1,6 @@
 import React from "react";
+import clsx from "clsx";
 
-export const ListItem = ({ content, className }) => {
-  return <li className={clsx("listitem", className)}>{content}</li>;
+export const ListItem = ({ name, className }) => {
+  return <li className={clsx("listitem", className)}>{name}</li>;
 };
