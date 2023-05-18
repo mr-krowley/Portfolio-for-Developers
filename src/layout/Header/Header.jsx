@@ -1,7 +1,7 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import s from "./Header.module.css";
-import { Link } from "react-router-dom";
+
 
 
 export const Header = () => {
@@ -10,16 +10,16 @@ export const Header = () => {
       <ul className={s.ul}>
         <li className={s.li}>micheal-weaver</li>
         <li className={s.li}>
-          <Link to="/">_hello</Link>
+          <NavLink to="/"  exart activeStyle={{color:'white'}} >_hello</NavLink>
         </li>
         <li className={s.li}>
-          <Link to="_about_me">_about</Link>
+          <NavLink to="_about_me" exart activeStyle={{color:'white'}}>_about</NavLink>
         </li>
         <li className={s.li}>
-          <Link to="projects_me">_projects</Link>
+          <NavLink to="projects_me" exart activeStyle={{color:'white'}}>_projects</NavLink>
         </li>
         <li className={s.li}>
-          <Link to="contact-me">_contact_me</Link>
+          <NavLink to="contact-me" exart activeStyle={{color:'white'}}>_contact_me</NavLink>
         </li>
       </ul>
     </div>

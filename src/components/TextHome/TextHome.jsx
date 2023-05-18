@@ -16,7 +16,7 @@ export const TextHome = () => {
 
       <div className={s.container2}>
 
-<img src={snake} alt="snake" className={s.snake}/>
+      <img src={snake} alt="snake" className={s.snake}/>
 
       </div>
     </div>
