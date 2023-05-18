@@ -8,32 +8,10 @@ import { Contacts } from "./pages/Contacts";
 import { Routes, Route } from "react-router-dom";
 function App() {
 
-// const router = createBrowserRouter([
-//   {
-    
-//     path: "/",
-//     element: <Home />
-     
-//   },
-//   {
-//     path: "_about_me",
-//     element: <About/>,
-//   },
-//   {
-//     path: "projects",
-//     element: <Projects/>,
-//   },
-//   {
-//     path: "contact-me",
-//     element: <Contacts/>,
-//   },
-// ]);
-
 
   return (
     <>
       <Layout>
-        {/* <RouterProvider router={router} /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="_about_me" element={<About />} />

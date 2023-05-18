@@ -1,6 +1,6 @@
 import React from 'react'
 import { TextHome } from '../components/TextHome/TextHome'
-import { Shake } from '../components/Shake/Shake'
+import { Shake } from '../components/Snake/Snake'
 
 
 export const Home = () => {
