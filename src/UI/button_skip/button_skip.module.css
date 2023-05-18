@@ -1,0 +1,24 @@
+.button_skip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 10px;
+  color: rgba(255, 255, 255, 1);
+  width: 62px;
+  height: 38px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+.button_skip_txt {
+  width: 34px;
+  height: 18px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #ffffff;
+}
