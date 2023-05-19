@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Plash } from '../components/Plash/Plash'
+import { PersonalInfo } from '../components/PersonalInfo/PersonalInfo'
+import about from './About.module.css'
+
 export const About = () => {
   return (
-    <>
-     <div>About</div>
-     <Link to="/">Home</Link>
-    </>
-    
+    <div className={about.container2}>
+     <Plash/>
+      <PersonalInfo/>
+    </div>
   )
 }
