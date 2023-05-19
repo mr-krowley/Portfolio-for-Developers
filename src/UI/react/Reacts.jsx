@@ -1,5 +1,6 @@
 import React from 'react'
-export const React = () => {
+
+export const Reacts = () => {
   return (
     <p>
       <input type="checkbox" />

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const gatsby = () => {
+export const Gatsby = () => {
   return (
     <p>
       <input type="checkbox" /><img src="../icons/Gatsby.svg" alt="gatsby" />
