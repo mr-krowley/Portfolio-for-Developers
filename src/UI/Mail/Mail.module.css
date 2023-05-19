@@ -1,5 +1,6 @@
 .style{
   display: flex;
+  padding: 12px;
 }
 .mail{
   padding-left: 9px;

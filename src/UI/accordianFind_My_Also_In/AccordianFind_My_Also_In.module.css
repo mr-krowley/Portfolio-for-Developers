@@ -6,8 +6,9 @@
 .accordian_box {
   width: 243px;
   height: auto;
-  width: 302px;
   border: 1px solid #1e2d3d;
+  width: 302px;
+  
 }
 .acordionHeiding {
   color: #ffffff;
@@ -19,10 +20,8 @@
   font-weight: 400;
 
   padding: 10px 0 14px 14px;
-
-  width: 302px;
   border-bottom: 1px solid #1e2d3d;
-  border-right: 1px solid #1e2d3d;
+  
 }
 .containerContacts {
   display: flex;

@@ -1,5 +1,7 @@
 .style{
   display: flex;
+  padding: 12px;
+  padding-bottom: 27px;
 }
 .number{
   padding-left: 9px;
