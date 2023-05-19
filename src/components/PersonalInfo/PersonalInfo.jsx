@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import persInf from './PersInf.module.css'
-import { PersonalInfoLeft } from '../../UI/personalInfoLeft/PersonalInfoLeft'
+import { AccordionPI } from '../../UI/AccordionPI/AccordionPI'
 
 export const PersonalInfo = () => {
+
+  const [active1, setActive1] = useState("")
+
   return (
   <div className={persInf.container1}>
     
-      <div className={persInf.persInf__left}><PersonalInfoLeft/></div>
+    <AccordionPI title="personal-info" active1={active1} setActive1={setActive1} >
+     </AccordionPI>
 
     
   </div>
