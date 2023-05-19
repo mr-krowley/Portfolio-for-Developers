@@ -1,9 +1,9 @@
 import React from 'react'
 import { PhoneNumber } from '../PhoneNumber/PhoneNumber';
 import { Mail } from '../Mail/Mail';
-import s from "./Accordian.module.css"
+import s from "./AccordianContacts.module.css"
 import triangle from "./svg/Vector1.svg"
-export const Accordian = ({ title, active, setActive }) => {
+export const AccordianContacts = ({ title, active, setActive }) => {
   return (
     <>
       <div className={s.accordian_box}>

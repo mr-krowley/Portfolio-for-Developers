@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import { ProjectsSelect } from '../components/ProjectsSelect/ProjectsSelect';
+// import { Projects } from '../components/Projects/Projects';
 
 
 export const Projects = () => {
@@ -8,7 +8,7 @@ export const Projects = () => {
     <>
       <div>Projects</div>
       <Link to="/">Home</Link>
-      <ProjectsSelect/>
+      
     </>
   );
 }
