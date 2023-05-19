@@ -6,7 +6,7 @@ import about from './About.module.css'
 export const About = () => {
   return (
     <div className={about.container2}>
-     <Plash/>
+      <Plash/>
       <PersonalInfo/>
     </div>
   )
