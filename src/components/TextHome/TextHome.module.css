@@ -1,49 +1,49 @@
-.wrapper{
-	display: flex;
-	justify-content: space-between;
+.wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-.container{
-	width: 530px;
-	margin: 265px 0 265px 311px;
-}
-
-.container2{
-	width: 900px;
-	height: 900px;
-	background-image: url(aseds/Blurs.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-
+.container {
+  width: 530px;
+  margin: 265px 0 265px 311px;
 }
 
-.hi{
-font-size: 18px;
-line-height: 24px;
+.container2 {
+  width: 900px;
+  height: 900px;
+  background-image: url(aseds/Blurs.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.userName{
-font-size: 62px;
-line-height: 81px;
-color: #E5E9F0;
-}
-.deloveper{
-	font-size: 32px;
-	line-height: 42px;
-	color: #4D5BCE;
+.hi {
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.p1{
-	font-size: 16px;
-	line-height: 21px;
-	color: #607B96;
+.userName {
+  font-size: 62px;
+  line-height: 81px;
+  color: #e5e9f0;
 }
-.const{
-	color: #4D5BCE;
+.deloveper {
+  font-size: 32px;
+  line-height: 42px;
+  color: #4d5bce;
+  margin-bottom: 80px;
 }
-.githubLink{
-	color: #43D9AD;
+
+.p1 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
 }
-.div{
+.const {
+  color: #4d5bce;
+}
+.githubLink {
+  color: #43d9ad;
+}
+.div {
   display: flex;
   flex-flow: column wrap;
 }
@@ -57,7 +57,7 @@ h1 {
 }
 .p1 {
   height: 24px;
-  
+
   font-size: 18px;
   line-height: 24px;
   color: #e5e9f0;
@@ -72,18 +72,17 @@ h1 {
 }
 .p3 {
   font-size: 16px;
-line-height: 21px;
-color: #607B96;
+  line-height: 21px;
+  color: #607b96;
 }
 .p4 {
   font-size: 16px;
-line-height: 21px;
-color: #4D5BCE;
+  line-height: 21px;
+  color: #4d5bce;
 }
 
-
-.snake{
-	margin: 190px 0 0 190px;
-	width: 500px;
-	height: 500px;
+.snake {
+  margin: 190px 0 0 190px;
+  width: 500px;
+  height: 500px;
 }
