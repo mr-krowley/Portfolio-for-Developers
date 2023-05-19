@@ -1,0 +1,13 @@
+.div {
+  padding-right: 7px;
+  padding-left: 23px;
+  color: #607b96;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 50px;
+  margin-left: auto;
+  border-left: 1px solid #1e2d3d;
+  border-right: none;
+}
