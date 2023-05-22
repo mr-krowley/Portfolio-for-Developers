@@ -1,0 +1,45 @@
+.img {
+  display: block;
+  width: 370.35px;
+  height: 145.44px;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  left: 324px;
+top: 52px;
+}
+
+.txt {
+  width: 305px;
+  height: 54px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 150%;
+  color: #607b96;
+  margin-bottom: 20px;
+}
+.container_img_icon {
+  display: block;
+  width: 370px;
+  height: 314px;
+  border-radius: 15px;
+}
+
+.card {
+  width: 370px;
+  height: auto;
+  border-radius: 15px;
+}
+.container_txt_button {
+  background:black;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 24px 34.6px 31.5px 31px;
+  position: relative;
+  top: -136px;
+  
+}
