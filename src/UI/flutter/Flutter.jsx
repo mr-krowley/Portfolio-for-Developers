@@ -1,10 +1,14 @@
 import React from "react";
+import FlutterIcon from "../icons/Flutter.svg";
 
 export const Flutter = () => {
   return (
-    <p>
-      <input type="checkbox" /><img src="../icons/Flutter.svg" alt="Flutter" />
-      Flutter
-    </p>
+    <>
+      <p>
+        <input type="checkbox" />
+        <img src={FlutterIcon} alt="Flutter" />
+        Flutter
+      </p>
+    </>
   );
 };
