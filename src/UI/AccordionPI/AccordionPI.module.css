@@ -1,15 +1,14 @@
-.container {
+.container{
   width: 243px;
   height: auto;
-  color: #607b96;
+  color: #607B96;
 }
-.accordian_box {
+.accordian_box{
   width: 243px;
   height: auto;
-  width: 302px;
-  border: 1px solid #1e2d3d;
+
 }
-.acordionHeiding {
+.acordionHeiding{
   color: #ffffff;
   font-weight: 400;
   font-size: 16px;
@@ -17,21 +16,19 @@
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 400;
-
+ 
   padding: 10px 0 14px 14px;
 
-  width: 302px;
-  border-bottom: 1px solid #1e2d3d;
-  border-right: 1px solid #1e2d3d;
 }
-.containerContacts {
-  display: flex;
+.containerContacts{
+ display: flex;
 }
-.acordionHeiding .container {
+.acordionHeiding .container{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 
 .accordionContent {
   display: none;
