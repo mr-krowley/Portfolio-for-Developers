@@ -1,0 +1,51 @@
+.container {
+  width: 243px;
+  height: auto;
+  color: #607b96;
+}
+.accordian_box {
+  width: 243px;
+  height: auto;
+  border: 1px solid #1e2d3d;
+  width: 302px;
+  
+}
+.acordionHeiding {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+
+  padding: 10px 0 14px 14px;
+  border-bottom: 1px solid #1e2d3d;
+  
+}
+.containerContacts {
+  display: flex;
+}
+.acordionHeiding .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordionContent {
+  display: none;
+}
+.show {
+  display: block;
+  color: #607b96;
+}
+
+.accordion_heading_not_active {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.accordion_heading_active {
+  cursor: pointer;
+  transform: rotate(-90deg);
+  margin-right: 10px;
+}

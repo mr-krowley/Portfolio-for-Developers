@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Accordian } from '../../UI/accordian/Accordian';
-import "./Contact.css"
+import { AccordianContacts } from '../../UI/accordianContacts/AccordianContacts';
+
 
 export const ContactAccordian = () => {
 
@@ -9,7 +9,7 @@ export const ContactAccordian = () => {
 
   return (
     <>
-      <Accordian title="Contacts" active={active} setActive={setActive} />
+      <AccordianContacts  title="Contacts" active={active} setActive={setActive} />
     </>
   );
 }
