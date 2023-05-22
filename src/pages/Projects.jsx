@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-// import { Projects } from '../components/Projects/Projects';
+import { Project } from '../components/Project/Project';
 
 
 export const Projects = () => {
   return (
     <>
-      <div>Projects</div>
+      <div>
+        <Project/>
+      </div>
       <Link to="/">Home</Link>
       
     </>
