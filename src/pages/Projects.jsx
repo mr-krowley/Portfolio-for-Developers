@@ -1,14 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import { Project } from '../components/Project/Project';
-
-
+import { ContainerCards } from '../components/containerCards/ContainerCards';
 export const Projects = () => {
   return (
     <>
-      <div>
-        <Project/>
-      </div>
+     <ContainerCards/> 
       <Link to="/">Home</Link>
       
     </>
