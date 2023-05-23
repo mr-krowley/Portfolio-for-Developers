@@ -1,0 +1,11 @@
+.container{
+ display: flex;
+ 
+}
+/* .container1{
+  display: flex;
+} */
+.container2{
+  display: flex;
+  justify-content: space-between;
+}
