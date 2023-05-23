@@ -1,11 +1,8 @@
 .container{
  display: flex;
- 
+  min-height: calc(100vh -110px);
 }
-/* .container1{
-  display: flex;
-} */
+
 .container2{
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
