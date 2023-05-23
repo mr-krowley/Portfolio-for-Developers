@@ -8,7 +8,9 @@ import green from './aseds/green.svg'
 
 
 
+
 export const AccordionPI = ({title, active1, setActive1}) => {
+
 	return (
 		<div className={s.accordian_box}>
         <div className={s.acordionHeiding}>
@@ -33,7 +35,7 @@ export const AccordionPI = ({title, active1, setActive1}) => {
 
         <div className={active1 === title ? s.show : s.accordionContent}>
           <div className="container">
-						<SubPersInf src2={red} >bio</SubPersInf>
+						<SubPersInf src2={red} >bio </SubPersInf>
 						<SubPersInf src2={green} >interests</SubPersInf>
 						<SubPersInf src2={fiolet} >education</SubPersInf>
           </div>
