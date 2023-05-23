@@ -1,3 +1,28 @@
+.card_header {
+  width: auto;
+  height: 21px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #5565e8;
+  margin-top: 118px;
+  margin-bottom: -42px;
+}
+.card_header_txt{
+  width: auto;
+  height: 21px;
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(96, 123, 150, 1);
+  padding-left: 99.5px;
+  position: relative;
+  bottom: -20px;
+}
 .img {
   display: block;
   width: 370.35px;
@@ -8,7 +33,7 @@
   width: 28px;
   position: relative;
   left: 324px;
-top: 52px;
+  top: 52px;
 }
 
 .txt {
@@ -35,14 +60,10 @@ top: 52px;
   border-radius: 15px;
 }
 .container_txt_button {
-  background:black;
+  background: black;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   padding: 24px 34.6px 31.5px 31px;
   position: relative;
   top: -136px;
-  
-
-
-  
 }
