@@ -1,23 +1,22 @@
 .Appppp {
- 
+  padding-top: 115px;
   display: flex;
   justify-content: space-between;
 }
+.inputApp {
+  display: flex;
+  flex-direction: column;
 
-.inputApp{
   min-width: 375px;
-  
+  flex-basis: 50%;
 }
-/* .inputConsole{
+.inputConsole {
+  min-width: 570px;
+  flex-basis: 50%;
+}
 
-} */
-
-h1 {
-  font-weight: 100;
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgb(79, 98, 148);
+form {
+  padding: 0 130px;
 }
 
 .inputName {
@@ -61,7 +60,26 @@ h1 {
   color: white;
 }
 
-label {
+.labelName {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  color: #607b96;
+  font-size: 14px;
+  font-weight: 200;
+}
+.labelEmail {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 24px;
+  color: #607b96;
+  font-size: 14px;
+  font-weight: 200;
+}
+.labelMessage {
   line-height: 2;
   text-align: left;
   display: block;
@@ -72,7 +90,7 @@ label {
   font-weight: 200;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   background: #1c2b3a;
   color: white;
   text-transform: uppercase;
@@ -84,28 +102,40 @@ input[type="submit"] {
   letter-spacing: 2px;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background: #bf1650;
 }
 
-input[type="button"]:active,
-input[type="submit"]:active {
+button[type="button"]:active,
+button[type="submit"]:active {
   transition: 0.3s all;
   transform: translateY(3px);
   border: 1px solid transparent;
   opacity: 0.8;
 }
 
-input:disabled {
+button:disabled {
   opacity: 0.4;
 }
 
-input[type="button"]:hover {
+button[type="button"]:hover {
   transition: 0.3s all;
 }
 
-input[type="button"],
-input[type="submit"] {
+button[type="button"],
+button[type="submit"] {
   -webkit-appearance: none;
 }
 
+.pi {
+  color: #fea55f;
+}
+.pizda {
+  color: #c98bdf;
+}
+.zda {
+  color: #5565e8;
+}
+.da {
+  color: #607b96;
+}

@@ -17,7 +17,7 @@ export const Contacts = () => {
      
       <div className={s.container2}>
         <HookFormContactMe />
-        <Link to="/">Home</Link>
+        
       </div>
     </div>
   );
