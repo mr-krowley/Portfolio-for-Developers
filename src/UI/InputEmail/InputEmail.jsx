@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./input_email";
-export const input_email = () => {
+import s from "./InputEmail.module.css";
+export const InputEmail = () => {
   return (
     <div className={s.email}>
       _email:
