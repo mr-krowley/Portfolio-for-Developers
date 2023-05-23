@@ -1,6 +1,6 @@
 import React from "react";
-import s from "./Input_message.module";
-export const Input_message = () => {
+import s from "./InputMessage.module.css"
+export const InputMessage = () => {
   return (
     <div className={s.message}>
       _message:
