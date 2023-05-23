@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-// import { Projects } from '../components/Projects/Projects';
-
-
+import { ContainerCards } from '../components/containerCards/ContainerCards';
 export const Projects = () => {
   return (
     <>
-      <div>Projects</div>
+     <ContainerCards/> 
       <Link to="/">Home</Link>
       
     </>

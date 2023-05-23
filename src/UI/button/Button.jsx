@@ -1,9 +1,9 @@
 import React from 'react'
-import s from "./Button.module"
-export const button = () => {
+import s from "./Button.module.css"
+export const Button = () => {
   return (
     <button className={s.button}>
-      <a href="#"><span className='button__txt'>view-project</span></a>
+      <span className={s.button}>view-project</span>
     </button>
   );
 }

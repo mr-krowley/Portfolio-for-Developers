@@ -1,12 +1,12 @@
 import React from 'react'
-import { PhoneNumber } from '../PhoneNumber/PhoneNumber';
-import { Mail } from '../Mail/Mail';
-import s from "./AccordianContacts.module.css"
+import s from "./AccordianFind_My_Also_In.module.css"
 import triangle from "./svg/Vector1.svg"
+import { YouTubeChannel } from '../YouTube_channel/YouTubeChannel';
+import { GuruShotsProfile } from '../GuruShots_profile/GuruShotsProfile';
+import { InstagramAccaunt } from '../Instagram_accaunt/InstagramAccaunt';
+import { TwichProfile } from '../Twich_profile/TwichProfile';
 
-
-
-export const AccordianContacts = ({ title, active, setActive }) => {
+export const AccordianFind_My_Also_In = ({ title, active, setActive }) => {
   return (
     <>
       <div className={s.accordian_box}>
@@ -32,11 +32,13 @@ export const AccordianContacts = ({ title, active, setActive }) => {
 
         <div className={active === title ? s.show : s.accordionContent}>
           <div className="container">
-            <Mail />
-            <PhoneNumber />
+            <YouTubeChannel />
+            <GuruShotsProfile />
+            <InstagramAccaunt />
+            <TwichProfile/>
           </div>
         </div>
       </div>
     </>
   );
-}
+};

@@ -1,12 +1,19 @@
 import React from 'react'
-import { PhoneNumber } from '../PhoneNumber/PhoneNumber';
-import { Mail } from '../Mail/Mail';
-import s from "./AccordianContacts.module.css"
+import s from "./AccordionProjectsUI.module.css"
 import triangle from "./svg/Vector1.svg"
 
 
+import { Reacts } from '../react/Reacts';
+import { Html } from '../html/Html';
+import { Css } from '../css/Css';
+import { Vue } from '../vue/Vue';
+import { Angular } from '../angular/Angular';
+import { Gatsby } from '../gatsby/Gatsby';
+import { Flutter } from '../flutter/Flutter';
 
-export const AccordianContacts = ({ title, active, setActive }) => {
+
+
+export const AccordionProjectsUI = ({ title, active, setActive } ) => {
   return (
     <>
       <div className={s.accordian_box}>
@@ -32,8 +39,13 @@ export const AccordianContacts = ({ title, active, setActive }) => {
 
         <div className={active === title ? s.show : s.accordionContent}>
           <div className="container">
-            <Mail />
-            <PhoneNumber />
+            <Reacts />
+            <Html />
+            <Css />
+            <Vue />
+            <Angular />
+            <Gatsby />
+            <Flutter />
           </div>
         </div>
       </div>
