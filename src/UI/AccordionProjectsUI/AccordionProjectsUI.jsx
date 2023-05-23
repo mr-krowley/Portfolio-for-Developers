@@ -13,16 +13,19 @@ import { Flutter } from '../flutter/Flutter';
 
 
 
-export const AccordionProjectsUI = ({ title, active, setActive } ) => {
+export const AccordionProjectsUI = ({ title, active, setActive }) => {
+  console.log(title);
   return (
     <>
       <div className={s.accordian_box}>
         <div className={s.acordionHeiding}>
           <div
             className={s.containerContacts}
-            onClick={() => {
-              active === title ? setActive("") : setActive(title);
-            }}
+            onClick={() => { 
+              console.log(active, title)
+              active === title ? setActive("") : setActive(title)
+            }
+            }
           >
             <img
               src={triangle}
