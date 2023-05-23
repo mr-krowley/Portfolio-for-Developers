@@ -1,5 +1,6 @@
 export let data = [
   {
+    
     txt: "Duis aute irure dolor in velit esse cillum dolore.",
     img: "./images/ui_animation_img.png",
     icon: "./images/icon/Icon_react.svg",
