@@ -10,7 +10,7 @@
   margin-top: 118px;
   margin-bottom: -42px;
 }
-.card_header_txt{
+.card_header_txt {
   width: auto;
   height: 21px;
   font-family: "Fira Code";
@@ -60,7 +60,7 @@
   border-radius: 15px;
 }
 .container_txt_button {
-  background: black;
+  background: #011221;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   padding: 24px 34.6px 31.5px 31px;
