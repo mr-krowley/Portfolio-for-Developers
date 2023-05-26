@@ -1,11 +1,12 @@
-.container{
-  width: 243px;
+/* .container{
+  width: 311px;
   height: auto;
   color: #607B96;
-}
+} */
 .accordian_box{
-  width: 243px;
+  width: 300px;
   height: auto;
+  /* border-right: 1px solid #1E2D3D;; */
 
 }
 .acordionHeiding{
