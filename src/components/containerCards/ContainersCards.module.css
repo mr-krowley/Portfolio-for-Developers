@@ -1,9 +1,9 @@
 .containerCard {
   display: grid;
   justify-items: center;
-  justify-content: space-evenly;
-  grid-auto-flow: column;
-  /* grid-template-columns: repeat(3, 1fr); */
+  /* justify-content: space-evenly; */
+  /* grid-auto-flow: column; */
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   
 }
