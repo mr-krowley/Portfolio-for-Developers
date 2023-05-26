@@ -1,15 +1,12 @@
 .Appppp {
- 
   display: flex;
   justify-content: space-between;
 }
 
 .inputApp{
-  min-width: 375px;
-  
+  width: 375px;
 }
 /* .inputConsole{
-
 } */
 
 h1 {
@@ -108,4 +105,5 @@ input[type="button"],
 input[type="submit"] {
   -webkit-appearance: none;
 }
+
 

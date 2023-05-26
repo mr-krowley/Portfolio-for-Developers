@@ -1,0 +1,35 @@
+.container{
+
+}
+
+.textPI__title{
+	height: inherit;
+	padding: 10px 15px 10px 15px;
+color: #607B96;
+border-right  : 1px solid #1E2D3D;
+width: 220px;
+display: flex;
+justify-content: space-between;
+}
+.textPI__title__not{
+	display: none;
+}
+
+.wrapper__title{
+	height: 46px;
+	border-bottom: 1px solid #1E2D3D;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	color:  #607B96;
+}
+
+.textPI__main{
+padding: 20px 40px;
+line-height: 27px;
+}
+.textPI__main__not{
+	display: none;
+}

@@ -16,6 +16,7 @@
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 400;
+  border-bottom: 1px solid #1E2D3D;
  
   padding: 10px 0 14px 14px;
 
@@ -47,3 +48,7 @@
   transform: rotate(-90deg);
   margin-right: 10px;
 }
+
+/* .title__high{
+  border-bottom: 1px solid #1E2D3D;
+} */

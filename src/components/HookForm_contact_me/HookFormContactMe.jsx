@@ -14,8 +14,8 @@ export const HookFormContactMe = () => {
    alert(JSON.stringify(data));
  };
 
-  return (
-    <div className='Appppp'>
+  return (<>
+    <div className="Appppp">
       <div className="inputApp">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div>
@@ -48,9 +48,10 @@ export const HookFormContactMe = () => {
         </form>
       </div>
       <div className="inputConsole">
-        <p>const button = document.querySelector('#sendBtn');</p>
+        <p classname= 'inputConsole__text'>const button = document.querySelector('#sendBtn');</p>
         <p></p>
       </div>
     </div>
+    </>
   );
 }
