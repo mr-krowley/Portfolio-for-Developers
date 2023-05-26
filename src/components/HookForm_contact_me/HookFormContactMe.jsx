@@ -1,24 +1,25 @@
-import React from 'react'
-import "./HookFormContactMe.css"
+import React from "react";
+import "./HookFormContactMe.css";
 import { useForm } from "react-hook-form";
-import { useState } from 'react';
+import { useState } from "react";
 
+export const handleClick = (inputName) => {
+  inputName.preventDefault();
+  alert("Hello");
+};
 
 
 
 export const HookFormContactMe = () => {
- const { register, handleSubmit } = useForm();
- const onSubmit = (data) => {
-   alert(JSON.stringify(data));
- };
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => {
+    alert(JSON.stringify(data));
+  };
 
-  
-  
-  
   const [inputName, setInputName] = useState("");
   const [inputMail, setInputMail] = useState("");
   const [inputMessage, setInputMessage] = useState("");
-  
+
   return (
     <div className="Appppp">
       <div className="inputApp">
@@ -68,7 +69,10 @@ export const HookFormContactMe = () => {
               onChange={(evt) => setInputMessage(evt.target.value)}
             />
           </div>
-          <button type="submit">gooooo</button>
+          <button onClick={handleClick} type="submit">
+            submit-message
+          </button>
+          
 
           {/* <input type="submit" /> */}
         </form>
@@ -104,11 +108,12 @@ export const HookFormContactMe = () => {
         <p className="pi">
           <span className="zda">&nbsp;&nbsp;message</span>
           <span className="da">:</span> {inputMessage}
-          <span className='da'>,</span>
+          <span className="da">,</span>
         </p>
         <br></br>
         <p className="pi">
-          <span className="da">&nbsp;&nbsp;date:</span> {new Date().toDateString()}
+          <span className="da">&nbsp;&nbsp;date:</span>{" "}
+          {new Date().toDateString()}
         </p>
         <p className="da">&#125;</p>
         <br></br>
@@ -133,4 +138,4 @@ export const HookFormContactMe = () => {
       </div>
     </div>
   );
-}
+};
