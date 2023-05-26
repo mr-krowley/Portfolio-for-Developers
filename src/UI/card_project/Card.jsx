@@ -1,8 +1,8 @@
-import React from 'react'
-// import { data } from './Card_project.js'
-import { Button } from '../button/Button.jsx';
-import s from "./Card.module.css"
-export const Card = ({el}) => {
+import React from "react";
+// import { data } from "./Card_project.js";
+import { Button } from "../button/Button.jsx";
+import s from "./Card.module.css";
+export const Card = ({ el }) => {
   return (
     <>
       <div className={s.card}>
@@ -15,9 +15,9 @@ export const Card = ({el}) => {
 
         <div className={s.container_txt_button}>
           <p className={s.txt}> {el.txt}</p>
-          <Button />
+          <Button href={el.link} />
         </div>
       </div>
     </>
   );
-}
+};

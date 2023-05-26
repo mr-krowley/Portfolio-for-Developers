@@ -1,6 +1,7 @@
 .container{
  display: flex;
 min-height: calc(100vh - 110px);
+background: #011627;
 }
 
 .container2{
