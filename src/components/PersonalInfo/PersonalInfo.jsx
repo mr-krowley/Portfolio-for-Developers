@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import s from './PersonalInfo.module.css'
-import { AccordionPI } from '../../UI/AccordionPI/AccordionPI'
+import { AccordionPI } from '../../ui/AccordionPI/AccordionPI'
 
 export const PersonalInfo = () => {
 

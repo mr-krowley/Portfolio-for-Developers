@@ -1,7 +1,7 @@
 import React from 'react'
-import { Card } from '../../UI/card_project/Card.jsx';
-import { data } from '../../UI/card_project/Card_project.js';
-import close_icon from '../../UI/icons/close-icon.svg'
+import { Card } from '../../ui/CardProject/CardProject.jsx';
+import { data } from '../../ui/CardProject/CardProject.js';
+import close_icon from '../../ui/Icons/close-icon.svg'
 import s from './ContainersCards.module.css'
 export const ContainerCards = () => {
   return (

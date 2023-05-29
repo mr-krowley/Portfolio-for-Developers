@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AccordianFind_My_Also_In } from '../../UI/accordianFind_My_Also_In/AccordianFind_My_Also_In';
+import { AccordianFindMyAlsoIn } from '../../ui/AccordianFindMyAlsoIn/AccordianFindMyAlsoIn';
 
 
 
@@ -10,7 +10,7 @@ export const FindMyAlsoIn = () => {
 
   return (
     <>
-      <AccordianFind_My_Also_In title="find-me-also-in" active={active} setActive={setActive} />
+      <AccordianFindMyAlsoIn title="find-me-also-in" active={active} setActive={setActive} />
     </>
     
   );

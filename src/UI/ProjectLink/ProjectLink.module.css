@@ -26,7 +26,7 @@
   background-color: #607b96;
 }
 .input[type="checkbox"]:checked::before {
-  content: url(../icons/Mark.svg);
+  content: url(../Icons/Mark.svg);
   width: 18px;
   height: 18px;
   position: absolute;
