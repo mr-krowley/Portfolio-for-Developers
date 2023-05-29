@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './TextHome.module.css'
 import snake from "./aseds/SnakeGame.png"
-import { Board } from '../BoardSnake/Board'
-import { SnakeTest } from '../SnakeTest/SnakeTest'
-import { SnakeSnake } from '../SnakeSnake/SnakeSnake'
+// import { Board } from '../BoardSnake/BoardSnake'
+// import { SnakeTest } from '../SnakeTest/SnakeTest'
+// import { SnakeSnake } from '../snakeSnake/SnakeSnake'
 export const TextHome = () => {
   return (
     <div className={s.wrapper}>

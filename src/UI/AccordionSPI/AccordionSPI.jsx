@@ -1,5 +1,5 @@
 import React from 'react'
-import { SubSubPersInf } from '../subSubPersInf/SubSubPersInf';
+import { SubSubPersInf } from '../SubSubPersInf/SubSubPersInf';
 import s from './AccordionSPI.module.css'
 
 

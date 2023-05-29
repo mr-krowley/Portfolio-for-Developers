@@ -1,6 +1,6 @@
 import React, {useState } from "react";
-import { ContainerCards } from "../components/containerCards/ContainerCards";
-import { AccordionProjectsUI } from "../UI/AccordionProjectsUI/AccordionProjectsUI";
+import { ContainerCards } from "../components/ContainerCards/ContainerCards";
+import { AccordionProjectsUI } from "../ui/AccordionProjectsUI/AccordionProjectsUI";
 import s from "./Project.module.css"
 
 

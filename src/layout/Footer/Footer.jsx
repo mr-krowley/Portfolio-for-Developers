@@ -1,9 +1,9 @@
 import React from 'react'
-import { Twitter } from "../../UI/Twitter/Twitter";
-import {Facebook} from "../../UI/Facebook/Facebook"
-import { Find } from '../../UI/Find/Find';
-import { Github } from '../../UI/Github/Github';
-import { Username } from '../../UI/Username/Username';
+import { Twitter } from "../../ui/Twitter/Twitter";
+import {Facebook} from "../../ui/Facebook/Facebook"
+import { Find } from '../../ui/Find/Find';
+import { Github } from '../../ui/Github/Github';
+import { Username } from '../../ui/Username/Username';
 import s from "./Footer.module.css"
 
 export const Footer = () => {
