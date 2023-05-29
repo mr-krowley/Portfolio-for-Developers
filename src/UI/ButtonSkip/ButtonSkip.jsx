@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './button_skip.module'
+import s from './ButtonSkip.module'
 
 export const button_skip = () => {
   return (
