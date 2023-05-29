@@ -7,4 +7,6 @@
 .container2{
   border-left:  1px solid #1E2D3D;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

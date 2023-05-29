@@ -1,13 +1,14 @@
-.Appppp {
+/* .Appppp {
   padding-top: 115px;
   display: flex;
   justify-content: space-between;
-}
+} */
 .inputApp {
   display: flex;
   flex-direction: column;
 
   min-width: 375px;
+  max-width: 635px;
   flex-basis: 50%;
 }
 .inputConsole {
