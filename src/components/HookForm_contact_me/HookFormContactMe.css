@@ -7,10 +7,11 @@
   display: flex;
   flex-direction: column;
 
-  min-width: 375px;
+  width: 744px;
   flex-basis: 50%;
 }
 .inputConsole {
+  padding-top: 4px;
   min-width: 570px;
   flex-basis: 50%;
 }

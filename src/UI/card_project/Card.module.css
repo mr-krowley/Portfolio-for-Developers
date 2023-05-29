@@ -11,8 +11,9 @@
   margin-bottom: -42px;
 }
 .card_header_txt {
+  display: block;
   width: auto;
-  height: 21px;
+  height: 41.5px;
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 700;
@@ -27,6 +28,8 @@
   display: block;
   width: 370.35px;
   height: 145.44px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .icon {
   height: 28px;
@@ -56,7 +59,7 @@
 
 .card {
   width: 370px;
-  height: auto;
+  height: 530px;
   border-radius: 15px;
 }
 .container_txt_button {
