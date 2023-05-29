@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import vector2 from "./aseds/Vector2.svg";
+import vector2 from "./assets/Vector2.svg";
 import st from "./SubPersInfo.module.css";
 import { AccordionSPI } from "../AccordionSPI/AccordionSPI";
 

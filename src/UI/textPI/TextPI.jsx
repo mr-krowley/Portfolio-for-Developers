@@ -1,6 +1,6 @@
 import React from 'react'
 import styl from "./TextPI.module.css"
-import xxx from './aseds/del.svg'
+import xxx from './assets/del.svg'
 // import { SubSubPersInf } from '../subSubPersInf/SubSubPersInf'
 
 

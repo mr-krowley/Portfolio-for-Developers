@@ -1,7 +1,7 @@
 import React from "react";
 // import { data } from "./Card_project.js";
-import { Button } from "../button/Button.jsx";
-import s from "./Card.module.css";
+import { Button } from "../Button/Button.jsx";
+import s from "./CardProject.module.css";
 export const Card = ({ el }) => {
   return (
     <>

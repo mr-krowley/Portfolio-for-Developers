@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import React from "react";
-import papka from "./aseds/papka.svg";
+import papka from "./assets/papka.svg";
 import sty from "./SubSubPersInf.module.css";
 
 export const SubSubPersInf = ({children}) => {

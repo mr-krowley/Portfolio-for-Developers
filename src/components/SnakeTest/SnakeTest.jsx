@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ButtonSnakeControl } from "../../UI/button_control/ButtonSnakeControl";
+import { ButtonSnakeControl } from "../SnakeTest/ButtonSnakeControl/ButtonSnakeControl.jsx"
 import Snake from "./Snake/Snake";
 import { Food } from "./Food/Food";
 import Menu from "./Menu/Menu";

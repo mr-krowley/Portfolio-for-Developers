@@ -1,12 +1,12 @@
 import React from 'react'
-import s from "./AccordianFind_My_Also_In.module.css"
+import s from "./AccordianFindMyAlsoIn.module.css"
 import triangle from "./svg/Vector1.svg"
-import { YouTubeChannel } from '../YouTube_channel/YouTubeChannel';
-import { GuruShotsProfile } from '../GuruShots_profile/GuruShotsProfile';
-import { InstagramAccaunt } from '../Instagram_accaunt/InstagramAccaunt';
-import { TwichProfile } from '../Twich_profile/TwichProfile';
+import { YouTubeChannel } from '../YouTubeChannel/YouTubeChannel';
+import { GuruShotsProfile } from '../GuruShotsProfile/GuruShotsProfile';
+import { InstagramAccaunt } from '../InstagramAccaunt/InstagramAccaunt';
+import { TwichProfile } from '../TwichProfile/TwichProfile';
 
-export const AccordianFind_My_Also_In = ({ title, active, setActive }) => {
+export const AccordianFindMyAlsoIn = ({ title, active, setActive }) => {
   return (
     <>
       <div className={s.accordian_box}>

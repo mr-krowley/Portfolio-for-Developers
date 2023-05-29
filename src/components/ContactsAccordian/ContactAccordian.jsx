@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { AccordianContacts } from '../../UI/accordianContacts/AccordianContacts';
 
+import { AccordianContacts } from '../../ui/AccordianContacts/AccordianContacts.jsx';
 
 export const ContactAccordian = () => {
 

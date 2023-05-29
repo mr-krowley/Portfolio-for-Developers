@@ -1,5 +1,5 @@
 import React from 'react'
-import s from "./Game_display.module";
+import s from "./GameDisplay.module";
 
 export const Game_display = () => {
   return (

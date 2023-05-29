@@ -1,10 +1,10 @@
 import React from 'react'
-import triangle from './aseds/Vector1.svg'
+import triangle from './assets/Vector1.svg'
 import s from './AccordionPI.module.css'
-import { SubPersInf } from '../../UI/subPersInf/SubPersInf'
-import red from './aseds/red.svg'
-import fiolet from './aseds/fiolet.svg'
-import green from './aseds/green.svg'
+import { SubPersInf } from '../../ui/SubPersInf/SubPersInf'
+import red from './assets/red.svg'
+import fiolet from './assets/fiolet.svg'
+import green from './assets/green.svg'
 
 
 

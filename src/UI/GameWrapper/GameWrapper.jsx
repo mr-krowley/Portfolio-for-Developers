@@ -1,5 +1,5 @@
 import React from 'react'
-import s from "./Game_wrapper.module";
+import s from "./GameWrapper.module";
 
 export const Game_wrapper = () => {
   return (
