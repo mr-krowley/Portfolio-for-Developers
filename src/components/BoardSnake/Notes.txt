@@ -1,0 +1,5 @@
+ Snake Game TODOs
+
+ - [] Create Snake
+  - [] Matrix representation
+  

@@ -6,6 +6,7 @@ export let data = [
     img: "./images/ui_animation_img.png",
     icon: "./images/icon/Icon_react.svg",
     id: "one",
+    
   },
   {
     card_header: "Project 2",
@@ -14,6 +15,7 @@ export let data = [
     img: "./images/tetris_game_img.png",
     icon: "./images/icon/Icon_react.svg",
     id: "thwoo",
+   
   },
   {
     card_header: "Project 3",
@@ -22,5 +24,6 @@ export let data = [
     img: "/images/etherium_img.png",
     icon: "./images/icon/Icon_etherium.svg",
     id: "three",
+    
   },
 ];
