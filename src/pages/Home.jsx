@@ -1,14 +1,12 @@
 import React from 'react'
 import { TextHome } from '../components/TextHome/TextHome'
-import { Shake } from '../components/Snake/Snake'
 
+import "./Home.css"
 
 export const Home = () => {
   return (
-    <div className="HomeCSS">
+    <div className="scrollable-component">
       <TextHome />
-      <Shake />
-      
     </div>
   );
 }
