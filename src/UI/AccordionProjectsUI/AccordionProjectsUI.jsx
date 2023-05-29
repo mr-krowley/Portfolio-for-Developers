@@ -1,15 +1,16 @@
 import React from 'react'
 import s from "./AccordionProjectsUI.module.css"
 import triangle from "./svg/Vector1.svg"
+import reactIcon from "./assets/react.svg"
+import htmlIcon from './assets/html.svg'
+import cssIcon from './assets/css.svg'
+import vueIcon from './assets/Vue.svg'
+import angularIcon from './assets/Angular.svg'
+import gatsbyIcon from './assets/Gatsby.svg'
+import flutterIcon from './assets/Flutter.svg'
 
 
-import { Reacts } from '../react/Reacts';
-import { Html } from '../html/Html';
-import { Css } from '../css/Css';
-import { Vue } from '../vue/Vue';
-import { Angular } from '../angular/Angular';
-import { Gatsby } from '../gatsby/Gatsby';
-import { Flutter } from '../flutter/Flutter';
+import { ProjectLink } from '../ProjectLink/ProjectLink';
 
 
 
@@ -42,13 +43,13 @@ export const AccordionProjectsUI = ({ title, active, setActive }) => {
 
         <div className={active === title ? s.show : s.accordionContent}>
           <div className="container">
-            <Reacts />
-            <Html />
-            <Css />
-            <Vue />
-            <Angular />
-            <Gatsby />
-            <Flutter />
+            <ProjectLink icon = {reactIcon}> React</ProjectLink>
+            <ProjectLink icon = {htmlIcon}> HTML</ProjectLink>
+            <ProjectLink icon = {cssIcon}> CSS</ProjectLink>
+            <ProjectLink icon = {vueIcon}> Vue</ProjectLink>
+            <ProjectLink icon = {angularIcon}> Angular</ProjectLink>
+            <ProjectLink icon = {gatsbyIcon}> Gatsby</ProjectLink>
+            <ProjectLink icon = {flutterIcon}> Flutter</ProjectLink>
           </div>
         </div>
       </div>
