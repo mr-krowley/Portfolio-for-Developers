@@ -20,8 +20,7 @@ export const Contacts = () => {
         <HookFormContactMe />
         
       </div>
-      <Link to="/">Home</Link>
-
+      
     </div>
   );
 }
