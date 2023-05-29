@@ -12,13 +12,16 @@ export const Contacts = () => {
     <div className={s.container}>
       <div>
         <ContactAccordian />
-        <Find_My_Also_In />
+      <Find_My_Also_In />
+
       </div>
      
       <div className={s.container2}>
         <HookFormContactMe />
         
       </div>
+      <Link to="/">Home</Link>
+
     </div>
   );
 }

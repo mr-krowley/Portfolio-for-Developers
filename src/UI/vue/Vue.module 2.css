@@ -1,0 +1,34 @@
+
+.img {
+  margin: 0 25px 0 25px;
+}
+
+.input[type="checkbox"] {
+  appearance: none;
+  box-sizing: border-box;
+  background: #011627;
+  border: 1px solid #607b96;
+  border-radius: 2px;
+  width: 19px;
+  height: 19px;
+}
+
+.wrapper {
+  padding: 22px 0 0 22px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.input[type="checkbox"]:checked {
+  background-color: #607b96;
+}
+.input[type="checkbox"]:checked::before {
+  content: url(../icons/Mark.svg);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  text-align:center;
+  line-height: 18px;
+}

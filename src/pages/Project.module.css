@@ -1,6 +1,7 @@
 .wrapper {
   display: flex;
   justify-content: normal;
+  background: #011627;
 }
 
 .container2{

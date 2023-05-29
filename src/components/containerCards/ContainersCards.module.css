@@ -1,12 +1,26 @@
 .containerCard {
   display: grid;
   justify-items: center;
-  justify-content: space-evenly;
-  grid-auto-flow: column;
-  /* grid-template-columns: repeat(3, 1fr); */
+  /* justify-content: space-evenly; */
+  /* grid-auto-flow: column; */
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   
 }
 .wrapper {
   width: 100%;
+}
+.textPI__title{
+ height: inherit;
+ padding: 10px 15px 10px 15px;
+color: #607B96;
+border-right  : 1px solid #1E2D3D;
+width: 220px;
+display: flex;
+justify-content: space-between;
+}
+
+.wrapper__title{
+ height: 46px;
+ border-bottom: 1px solid #1E2D3D;
 }

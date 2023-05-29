@@ -1,5 +1,5 @@
 .plash{
-	width: 68px;
+	min-width: 68px;
 	border-right: 1px solid #1E2D3D;
 	display: flex;
 	flex-direction: column;
