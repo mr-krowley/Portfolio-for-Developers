@@ -3,7 +3,7 @@ import { AccordianFind_My_Also_In } from '../../UI/accordianFind_My_Also_In/Acco
 
 
 
-export const Find_My_Also_In = () => {
+export const FindMyAlsoIn = () => {
 
 
    const [active, setActive] = useState("");

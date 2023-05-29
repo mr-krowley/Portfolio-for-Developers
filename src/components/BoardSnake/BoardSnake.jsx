@@ -6,7 +6,7 @@ import {
   useInterval,
 } from './Utils.js';
 
-import './Board.css';
+import './BoardSnake.css';
 
 /**
  * TODO: add a more elegant UX for before a game starts and after a game ends.
@@ -53,7 +53,7 @@ const getStartingSnakeLLValue = board => {
   };
 };
 
-export const Board = () => {
+export const BoardSnake = () => {
   const [score, setScore] = useState(0);
   const [board, setBoard] = useState(createBoard(BOARD_SIZE));
   const [snake, setSnake] = useState(
